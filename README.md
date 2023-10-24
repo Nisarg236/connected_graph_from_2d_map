@@ -6,7 +6,7 @@ This package detects waypoints from a 2D map and then makes a connectivity graph
 2) Numpy: 1.16.6
 3) Skimage: 0.14.5
 
-Then, in the imput image make sure that the roads are in white color and the obstacles are in black color as shown in the example image
+Then, in the input image, make sure that the roads are in white color and the obstacles are in black color as shown in the example image
 
 ![Screenshot](img.png)
 
