@@ -12,7 +12,7 @@ Then, in the input image, make sure that the roads are in white color and the ob
 
 ## STEPS TO USE:
 
-1) In src/skeleton.py specify the path of the map image and then run it.This will convert all the roads to a single pixel wide line.
+1) In src/skeleton.py specify the path of the map image and then run it. This will convert all the roads to a single pixel wide line.
 2) Edit the input image path in src/waypoint.py somewhere around line 977 to include the skeleton image.
 3) To run the code:
    1) start roscore
