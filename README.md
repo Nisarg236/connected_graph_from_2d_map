@@ -1,5 +1,16 @@
-# MAKE CONNECTIVITY GRAPH FROM 2D MAP
+# MAKE CONNECTIVITY GRAPH FROM 2D MAP 
 
+WORKING:
+![image](https://github.com/Nisarg236/connected_graph_from_2d_map/assets/71684502/e892b8fb-4fee-4905-886a-674c6bf8d106)
+
+![image](https://github.com/Nisarg236/connected_graph_from_2d_map/assets/71684502/0162e6cc-15ae-4176-9d42-6ea636c35ad1)
+
+![image](https://github.com/Nisarg236/connected_graph_from_2d_map/assets/71684502/7f531119-d017-4e8d-96c2-fd8719016651)
+
+![image](https://github.com/Nisarg236/connected_graph_from_2d_map/assets/71684502/63fbb335-1724-4d85-a55b-ab8f8fc43d9e)
+
+
+USAGE:
 This package detects waypoints from a 2D map and then makes a connectivity graph from it. first open the waypoint folder and then install the required python packages:
 
 1) OpenCV: 3.4.4
