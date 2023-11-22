@@ -3,7 +3,7 @@
 WORKING:
 First the program finds features such as corners and then puts a black dot on the features and this breaks the roads into segments.
 These features are considered as the nodes of the graph.
-Next, contours are made arount each road segment and extreme points of the contour are found.
+Next, contours are made around each road segment and extreme points of the contour are found.
 Then loop through the nodes, if any node has a contour extreme point in a nearby region then it is connected to that road.
 
 ![image](https://github.com/Nisarg236/connected_graph_from_2d_map/assets/71684502/e892b8fb-4fee-4905-886a-674c6bf8d106)
