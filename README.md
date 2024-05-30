@@ -4,7 +4,7 @@ WORKING:
 First the program finds features such as corners and then puts a black dot on the features and this breaks the roads into segments.
 These features are considered as the nodes of the graph.
 Next, contours are made around each road segment and extreme points of the contour are found.
-Then it loops through the exrtreme points of road segments, and searches the nearest waypoint to that point and then connects them.
+Then it loops through the extreme points of road segments, and searches the nearest waypoint to those extreme points. Waypoint closest to one extreme point and the other extreme point of the road segment is connected to each other by an edge.
 
 It also stores the perimeter of the road segment so that when multiple paths are there, scoring can be easily done on the basis of length of the path, number of nodes, least number of turns, etc.
 
