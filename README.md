@@ -1,8 +1,9 @@
 # MAKE CONNECTIVITY GRAPH FROM 2D MAP 
 
 WORKING:
-**First check the demo.mp4 to get a clear idea of how to use and how it works
-**
+Check the demo.mp4 to get a clear idea of how to use and how it works
+
+ALGORITHM:
 First the program finds features such as corners and then puts a black dot on the features and this breaks the roads into segments.
 These features are considered as the nodes of the graph.
 Next, contours are made around each road segment and extreme points of the contour are found.
