@@ -365,11 +365,6 @@ def processFeedback( feedback):
                 #EMPTY THE LIST SO THAT WE CAN USE IT AGAIN
                 delete_edge_bw=[]
 
-
-#code this:
-# save_to yaml do baar press hoga first time bade pts save aur uske baad nae banao waypoints, wo edit krke dusri bar save karo to naya save hoga 
-#if load previous kia hai to jo files select ki hai wo load hogi, use edit karo aur fir save dabane se save ho jaegi. agar files load ki hai to kitni bhi baar save dabao bas save hi hoga nae points nai banenge.
-
         #WHEN WE PRESS SAVE TO YAML THE FIRST TIME, IT WILL SAVE THE YAMLS AND THEN CALCULATE INBETWEEN WAYPOINTS, PUBLISH THEM AND CREATE A CONNECTED GRAPH WITH IN BETWEEN WAYPOINTS AND THEN PUBLISH THE EDGES
         #IF WE HAVE SELECTED THE LOAD PREVIOUS OPTION THEN NO MATTER HOW MANY TIMES WE PRESS SAVE TO YAML IT WILL SAVE IT AND THEN DO NOTHING (LIKE WILL NOT FIND INBETWEEN POINTS)
         if feedback.menu_entry_id==5:
